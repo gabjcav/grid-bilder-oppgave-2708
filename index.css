@@ -1,5 +1,6 @@
 *{
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -16,9 +17,18 @@ header{
 }
 
 nav{
-    display: inline;
-    float: right;
+    height: 30px;
+    width: 150%;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 25px;
+    margin: 0 50px;
     background-color: rgb(0, 0, 0);
+    position: absolute;
+    
+    right: 1px;
+   
 }
 
 main{
@@ -28,7 +38,8 @@ main{
     gap: 8px;
     grid-auto-flow: dense;
     height: 100vh;
-    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
     
