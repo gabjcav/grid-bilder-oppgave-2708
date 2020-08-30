@@ -10,7 +10,6 @@ body{
 
 header{
     width: 100%;
-    background-color: cadetblue;
     height: 30px;
     position: fixed;
     
@@ -22,11 +21,11 @@ nav{
     display: grid;
     grid-auto-flow: column;
     justify-content: end;
+    align-items: center;
     gap: 25px;
     margin: 0 50px;
     background-color: rgb(0, 0, 0);
     position: absolute;
-    
     right: 1px;
    
 }
@@ -40,6 +39,19 @@ main{
     height: 100vh;
     margin-left: 10px;
     margin-right: 10px;
+    
+}
+
+footer{
+    height: 30px;
+    width: 150%;
+    display: grid;
+    grid-auto-flow: column;
+    
+    gap: 25px;
+    
+    background-color: rgb(0, 0, 0);
+    position: fixed;
     
 }
     
@@ -65,3 +77,4 @@ img{
 p{
     color: white;
 }
+
